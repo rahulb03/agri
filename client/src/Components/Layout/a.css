@@ -1,0 +1,25 @@
+/* a.css */
+.r{
+  background-color: black;
+}
+
+.list-group-item {
+    border: 1px solid #dee2e6; /* Set the border color as needed */
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+    border-color: #007bff; /* Change the border color on hover */
+  }
+  
+  .list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff; /* Change the border color for the active item */
+  }
+  
+  .dashboard-menu h4 {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #dee2e6; /* Set the border color for the heading */
+  }
+  

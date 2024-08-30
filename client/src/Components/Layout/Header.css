@@ -1,0 +1,72 @@
+
+/* Header.css */
+.container-fluid{
+    background-color: dodgerblue;
+}
+
+
+.navbar {
+    background-color: lightcyan; /* Change the background color to green */
+    padding: 0px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: black; /* Change the text color to white */
+    text-decoration: none;
+  }
+  
+  
+  .nav-link {
+    color: #fff !important; /* Change the text color of the links to white */
+  }
+  
+  .nav-link:hover {
+    color: #ffd700 !important; /* Change the text color of links on hover to gold */
+  }
+  
+  .dropdown-menu {
+    background-color: lightskyblue; /* Change the background color of the dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: #fff !important; /* Change the text color of dropdown items to white */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #555; /* Change the background color of dropdown items on hover */
+  }
+  
+  .cart-link {
+    position: relative;
+  }
+  
+  .cart-link::after {
+    content: "0";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0000; /* Change the background color of the cart item count */
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  /* Additional styles for better visibility of content */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  /* Adjusting the text color for better visibility on a green background */
+  .navbar-nav .nav-link,
+  .dropdown-item {
+    color: #000 !important; /* Change the text color to black for better visibility */
+  }
+  
+
+

@@ -1,0 +1,11 @@
+/* Add this CSS in your stylesheet or in a style tag in your component */
+.table-with-border {
+    border: 1px solid #000; /* 1px solid black border */
+  }
+  
+  /* Optionally, you can style the table header with a background color */
+  .table-with-border thead th {
+    background-color: #000;
+    color: #fff;
+  }
+  
